@@ -1,4 +1,4 @@
-import "./Card.scss";
+// import "./Card.scss";
 
 const Card = (props) => (
   <div className="card">
