@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card";
 
+import "./index.scss";
+
 class Index extends React.Component {
   // static async getInitialProps() {
 
