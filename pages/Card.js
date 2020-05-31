@@ -1,5 +1,3 @@
-import "./Card.scss";
-
 const Card = (props) => (
   <div className="card">
     <div className="front">

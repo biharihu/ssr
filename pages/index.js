@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.scss";
 import Card from "./Card";
 
 class Index extends React.Component {
