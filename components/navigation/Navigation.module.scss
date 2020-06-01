@@ -1,0 +1,72 @@
+.liquidNav {
+  top: 0;
+  z-index: 20;
+  height: 13vh;
+  width: 100%;
+  transition: 0.5s all;
+}
+.navigation {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .liquidNav {
+    display: none;
+  }
+  .navigation {
+    display: block;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .nav {
+    display: none;
+    width: 0px;
+  }
+}
+
+.navbox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+}
+
+.navlink__logo {
+  background-color: red;
+}
+
+.navlink__logo__img {
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  top: 10%;
+  left: 7rem;
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  right: 2%;
+  top: 30%;
+}
+
+.topnav a {
+  float: left;
+  color: #e71b45;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: SF-UI-Bold;
+}
+
+.topnav a:hover {
+  color: #000;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #000;
+}
